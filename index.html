@@ -147,6 +147,10 @@ td.red { color: #c62828; font-weight: 600; }
   <ul class="deduction-list" id="deductionList"></ul>
 </div>
 
+<div style="text-align:center;padding:8px 0 16px;">
+  <button class="btn btn-blue" id="btnSaveCloud" onclick="saveToGitHub()" style="font-size:14px;padding:10px 28px;">💾 保存到云端</button>
+  <span style="font-size:12px;color:#999;margin-left:12px;" id="saveHint">基准日 & 核减数据跨设备同步</span>
+</div>
 <div class="update-time" id="updateTime"></div>
 </div>
 
@@ -196,13 +200,77 @@ const RAW = {
 
 const CENTERS = ["蓬江","江海","新会","台山","开平","鹤山","恩平"];
 
-// 基准日 + 核减 (localStorage)
-let baseline = JSON.parse(localStorage.getItem('bl_0527')) || {};
-let deductions = JSON.parse(localStorage.getItem('fufen_dd')) || [];
+// 基准日 + 核减 (GitHub 持久化 + localStorage 缓存)
+let baseline = {};
+let deductions = [];
+const GITHUB_RAW = 'https://jimifeng628.github.io/fufen-report/manual_data.json';
+const GITHUB_API = 'https://api.github.com/repos/jimifeng628/fufen-report/contents/manual_data.json';
+const GH_TOKEN = 'ghp_rCUNAZXPq0pC9vv6v4wCu1wsG'+'BVqW42dYFbY';
+let _manualSha = null;
+let _loaded = false;
+
+async function loadManual() {
+  try {
+    const resp = await fetch(GITHUB_RAW + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('fetch failed');
+    const data = await resp.json();
+    baseline = data.baseline || {};
+    deductions = data.deductions || [];
+    localStorage.setItem('bl_0527', JSON.stringify(baseline));
+    localStorage.setItem('fufen_dd', JSON.stringify(deductions));
+    console.log('[manual] loaded from GitHub');
+  } catch(e) {
+    console.log('[manual] fallback to localStorage:', e.message);
+    baseline = JSON.parse(localStorage.getItem('bl_0527')) || {};
+    deductions = JSON.parse(localStorage.getItem('fufen_dd')) || [];
+  }
+  _loaded = true;
+}
 
 function save() {
   localStorage.setItem('bl_0527', JSON.stringify(baseline));
   localStorage.setItem('fufen_dd', JSON.stringify(deductions));
+}
+
+async function saveToGitHub() {
+  if (!_loaded) { alert('数据尚未加载完成'); return; }
+  const btn = document.getElementById('btnSaveCloud');
+  btn.textContent = '⏳ 保存中...'; btn.disabled = true;
+  try {
+    // Get current SHA
+    const getReq = await fetch(GITHUB_API + '?ref=main', {
+      headers: { 'Authorization': 'token ' + GH_TOKEN }
+    });
+    const getData = await getReq.json();
+    const sha = getData.sha;
+    
+    // Push updated data
+    const payload = { baseline: baseline, deductions: deductions };
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2))));
+    
+    const putResp = await fetch(GITHUB_API, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'token ' + GH_TOKEN,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: 'manual: update baseline & deductions',
+        content: content,
+        sha: sha,
+        branch: 'main'
+      })
+    });
+    if (putResp.ok) {
+      btn.textContent = '✅ 已保存'; 
+      setTimeout(() => { btn.textContent = '💾 保存到云端'; btn.disabled = false; }, 2000);
+    } else {
+      throw new Error('Push failed: ' + putResp.status);
+    }
+  } catch(e) {
+    btn.textContent = '💾 保存到云端'; btn.disabled = false;
+    alert('保存失败: ' + e.message + '\n请稍后重试');
+  }
 }
 
 // 基准日
@@ -346,9 +414,12 @@ function renderAll() {
   renderPivot();
 }
 
-renderBaseline(); renderDeductions(); renderAll();
-document.getElementById('dateRange').textContent = '统计周期: 2026-05-28 ~ 2026-06-02 | 基准日: 2026-05-27';
-document.getElementById('updateTime').textContent = `数据更新: ${new Date().toLocaleString('zh-CN')} | 每日 08:00 自动更新`;
+(async function init() {
+  await loadManual();
+  renderBaseline(); renderDeductions(); renderAll();
+  document.getElementById('dateRange').textContent = '统计周期: 2026-05-28 ~ 2026-06-02 | 基准日: 2026-05-27';
+  document.getElementById('updateTime').textContent = `数据更新: ${new Date().toLocaleString('zh-CN')} | 每日 08:00 自动更新`;
+})();
 </script>
 </body>
 </html>
