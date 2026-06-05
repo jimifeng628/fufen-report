@@ -1,4 +1,11 @@
 {
   "baseline": {},
-  "deductions": []
+  "deductions": [
+    {
+      "date": "2026-05-28",
+      "center": "蓬江",
+      "score": -86700,
+      "reason": ""
+    }
+  ]
 }
