@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>组网类业务归档福分日报</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Microsoft YaHei', sans-serif; background: #f0f2f5; color: #333; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.header { background: linear-gradient(135deg, #1a73e8, #0d47a1); color: #fff; border-radius: 12px; padding: 24px 30px; margin-bottom: 20px; }
+.header h1 { font-size: 24px; margin-bottom: 6px; }
+.header .sub { opacity: .8; font-size: 14px; }
+.section { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.section h3 { font-size: 16px; color: #555; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e8f0fe; }
+.section h3 .badge { display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: 12px; margin-left: 8px; }
+.badge-blue { background: #e3f2fd; color: #1565c0; }
+.badge-orange { background: #fff3e0; color: #e65100; }
+.badge-red { background: #fce4ec; color: #c62828; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); text-align: center; }
+.card .label { font-size: 13px; color: #888; margin-bottom: 4px; }
+.card .value { font-size: 22px; font-weight: 700; }
+.card .value.blue { color: #1a73e8; }
+.card .value.gold { color: #e65100; }
+.card .value.green { color: #2e7d32; }
+.card .value.red { color: #c62828; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { background: #f5f5f5; padding: 10px 8px; text-align: center; font-weight: 600; border-bottom: 2px solid #e0e0e0; white-space: nowrap; }
+td { padding: 8px; text-align: center; border-bottom: 1px solid #f0f0f0; }
+tr:hover td { background: #f8faff; }
+td.num { font-variant-numeric: tabular-nums; }
+tr.total td { background: #e8f0fe; font-weight: 700; border-top: 2px solid #1a73e8; }
+td.green { color: #2e7d32; font-weight: 600; }
+td.red { color: #c62828; font-weight: 600; }
+.input-sm { width: 100px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 4px; text-align: center; font-size: 13px; }
+.input-sm:focus { outline: none; border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,.15); }
+.btn { display: inline-flex; align-items: center; gap: 4px; padding: 6px 14px; border: none; border-radius: 6px; font-size: 13px; cursor: pointer; transition: all .2s; }
+.btn-blue { background: #1a73e8; color: #fff; }
+.btn-blue:hover { background: #1557b0; }
+.btn-red { background: #d32f2f; color: #fff; }
+.btn-red:hover { background: #b71c1c; }
+.btn-sm { padding: 3px 10px; font-size: 12px; }
+.deduction-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px; background: #fafafa; border-radius: 6px; margin-top: 8px; }
+.deduction-form select, .deduction-form input { padding: 6px 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 13px; }
+.deduction-form select:focus, .deduction-form input:focus { outline: none; border-color: #1a73e8; }
+.deduction-list { list-style: none; margin-top: 8px; }
+.deduction-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: #fff; border: 1px solid #f0f0f0; border-radius: 6px; margin-bottom: 6px; }
+.deduction-item .info { flex: 1; font-size: 13px; }
+.deduction-item .info .tag { display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: 11px; background: #fff3e0; color: #e65100; margin-right: 6px; }
+.deduction-item .score { font-weight: 700; font-size: 14px; }
+.deduction-item .score.red { color: #c62828; }
+.deduction-item .score.green { color: #2e7d32; }
+.tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.tab-btn { padding: 6px 14px; border: 1px solid #ddd; border-radius: 6px; background: #fff; cursor: pointer; font-size: 13px; transition: all .2s; }
+.tab-btn.active { background: #1a73e8; color: #fff; border-color: #1a73e8; }
+.tab-btn:hover { border-color: #1a73e8; }
+.update-time { text-align: center; color: #999; font-size: 12px; padding: 12px; }
+.password-overlay { position: fixed; inset: 0; background: linear-gradient(135deg, #0d47a1 0%, #1a73e8 50%, #4fc3f7 100%); display: flex; align-items: center; justify-content: center; z-index: 9999; }
+.password-box { background: #fff; border-radius: 16px; padding: 40px 36px; width: 360px; box-shadow: 0 20px 60px rgba(0,0,0,.3); text-align: center; }
+.password-box .lock-icon { font-size: 48px; margin-bottom: 12px; }
+.password-box h2 { font-size: 20px; color: #333; margin-bottom: 6px; }
+.password-box .hint { font-size: 13px; color: #999; margin-bottom: 20px; }
+.password-box input { width: 100%; padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 16px; text-align: center; letter-spacing: 4px; transition: border-color .2s; outline: none; }
+.password-box input:focus { border-color: #1a73e8; }
+.password-box .error-msg { color: #c62828; font-size: 13px; margin-top: 8px; min-height: 20px; }
+.password-box .btn-unlock { width: 100%; margin-top: 16px; padding: 12px; background: linear-gradient(135deg, #1a73e8, #0d47a1); color: #fff; border: none; border-radius: 10px; font-size: 16px; cursor: pointer; font-weight: 600; transition: all .2s; }
+.password-box .btn-unlock:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(26,115,232,.4); }
+.password-box .btn-unlock:active { transform: translateY(0); }
+.shake { animation: shake .5s ease; }
+@keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-8px)} 40%{transform:translateX(8px)} 60%{transform:translateX(-5px)} 80%{transform:translateX(5px)} }
+</style>
+</head>
+<body>
+<div class="password-overlay" id="pwOverlay">
+  <div class="password-box" id="pwBox">
+    <div class="lock-icon">🔐</div>
+    <h2>访问验证</h2>
+    <p class="hint">请输入访问密码</p>
+    <input type="password" id="pwInput" placeholder="请输入密码" onkeydown="if(event.key==='Enter')checkPw()">
+    <div class="error-msg" id="pwError"></div>
+    <button class="btn-unlock" onclick="checkPw()">🔓 解锁访问</button>
+  </div>
+</div>
+<div class="container" id="mainContent" style="display:none">
+
+<div class="header">
+  <h1>📊 组网类业务归档福分日报</h1>
+  <div class="sub" id="dateRange"></div>
+</div>
+
+<div class="cards" id="summaryCards"></div>
+
+<!-- 汇总表 -->
+<div class="section">
+  <h3>📋 每日福分按中心汇总</h3>
+  <div class="table-wrap">
+    <table>
+      <thead id="pivotHeader"></thead>
+      <tbody id="pivotBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 基准日 -->
+<div class="section">
+  <h3>📅 基准日（2026-05-27）<span class="badge badge-blue">手动录入</span></h3>
+  <p style="font-size:13px;color:#888;margin-bottom:10px;">录入5月27日各中心的福分基数（总福分，不分业务类型）</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>中心</th><th>基准日福分</th></tr></thead>
+      <tbody id="baselineBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 核减 -->
+<div class="section">
+  <h3>✏️ 福分核减/核增<span class="badge badge-red">手动录入</span></h3>
+  <p style="font-size:13px;color:#888;margin-bottom:10px;">对指定日期和中心的福分进行手工调整</p>
+  
+  <div class="deduction-form">
+    <select id="deductDate">
+      <option value="2026-05-27">2026-05-27</option>
+      <option value="2026-05-28">2026-05-28</option>
+      <option value="2026-05-29">2026-05-29</option>
+      <option value="2026-05-30">2026-05-30</option>
+      <option value="2026-05-31">2026-05-31</option>
+      <option value="2026-06-01">2026-06-01</option>
+      <option value="2026-06-02">2026-06-02</option>
+    </select>
+    <select id="deductCenter">
+      <option value="蓬江">蓬江</option>
+      <option value="江海">江海</option>
+      <option value="新会">新会</option>
+      <option value="台山">台山</option>
+      <option value="开平">开平</option>
+      <option value="鹤山">鹤山</option>
+      <option value="恩平">恩平</option>
+    </select>
+    <input type="number" id="deductScore" placeholder="核减负数，核增正数" style="width:180px">
+    <input type="text" id="deductReason" placeholder="原因（选填）" style="width:150px">
+    <button class="btn btn-blue" onclick="addDeduction()">➕ 添加</button>
+  </div>
+  
+  <ul class="deduction-list" id="deductionList"></ul>
+</div>
+
+<div class="update-time" id="updateTime"></div>
+</div>
+
+<script>
+// ===== 密码验证 =====
+const PW_HASH = 'f95ca745c4c8e7530315bce6c202eea20852f1ef6909044fb619609289652d02';
+
+async function sha256(text) {
+  const enc = new TextEncoder().encode(text);
+  const buf = await crypto.subtle.digest('SHA-256', enc);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function checkPw() {
+  const input = document.getElementById('pwInput').value;
+  const error = document.getElementById('pwError');
+  if (!input) { error.textContent = '请输入密码'; return; }
+  const hash = await sha256(input);
+  if (hash === PW_HASH) {
+    sessionStorage.setItem('report_auth', '1');
+    document.getElementById('pwOverlay').style.display = 'none';
+    document.getElementById('mainContent').style.display = 'block';
+  } else {
+    error.textContent = '密码错误，请重试';
+    const box = document.getElementById('pwBox');
+    box.classList.remove('shake');
+    void box.offsetWidth;
+    box.classList.add('shake');
+    document.getElementById('pwInput').value = '';
+  }
+}
+
+(function() {
+  if (sessionStorage.getItem('report_auth') === '1') {
+    document.getElementById('pwOverlay').style.display = 'none';
+    document.getElementById('mainContent').style.display = 'block';
+  }
+})();
+
+const RAW = {
+  pivot: [{"date":"05/28","台山":13260,"开平":15454,"恩平":6280,"新会":19747,"江海":7772,"蓬江":11662,"鹤山":8372,"合计":82547},{"date":"05/29","台山":18746,"开平":17049,"恩平":5681,"新会":19543,"江海":12556,"蓬江":22329,"鹤山":15650,"合计":111554},{"date":"05/30","台山":7778,"开平":11666,"恩平":11366,"新会":17751,"江海":7672,"蓬江":12860,"鹤山":14654,"合计":83747},{"date":"05/31","台山":6779,"开平":16451,"恩平":10270,"新会":20441,"江海":11861,"蓬江":13559,"鹤山":13055,"合计":92416},{"date":"06/01","台山":15645,"开平":12259,"恩平":9870,"新会":12161,"江海":5483,"蓬江":13059,"鹤山":9271,"合计":77748},{"date":"06/02","台山":11553,"开平":10264,"恩平":7672,"新会":14849,"江海":7275,"蓬江":9862,"鹤山":8171,"合计":69646}],
+  centers: ["台山","开平","恩平","新会","江海","蓬江","鹤山"],
+  centerTotals: {"新会":104492,"蓬江":83331,"开平":83143,"台山":73761,"鹤山":69173,"江海":52619,"恩平":51139},
+  grandTotal: 517658,
+  detail: [{"date":"2026-05-28","center":"台山","biz":"FTTR","score":7182},{"date":"2026-05-28","center":"台山","biz":"MESH","score":5083},{"date":"2026-05-28","center":"台山","biz":"枪机","score":995},{"date":"2026-05-28","center":"开平","biz":"FTTR","score":7381},{"date":"2026-05-28","center":"开平","biz":"MESH","score":8073},{"date":"2026-05-28","center":"恩平","biz":"FTTR","score":1596},{"date":"2026-05-28","center":"恩平","biz":"MESH","score":4485},{"date":"2026-05-28","center":"恩平","biz":"枪机","score":199},{"date":"2026-05-28","center":"新会","biz":"FTTR","score":16359},{"date":"2026-05-28","center":"新会","biz":"MESH","score":3189},{"date":"2026-05-28","center":"新会","biz":"枪机","score":199},{"date":"2026-05-28","center":"江海","biz":"FTTR","score":2992},{"date":"2026-05-28","center":"江海","biz":"MESH","score":4780},{"date":"2026-05-28","center":"蓬江","biz":"FTTR","score":5586},{"date":"2026-05-28","center":"蓬江","biz":"MESH","score":6076},{"date":"2026-05-28","center":"鹤山","biz":"FTTR","score":3192},{"date":"2026-05-28","center":"鹤山","biz":"MESH","score":4981},{"date":"2026-05-28","center":"鹤山","biz":"枪机","score":199},{"date":"2026-05-29","center":"台山","biz":"FTTR","score":10374},{"date":"2026-05-29","center":"台山","biz":"MESH","score":8372},{"date":"2026-05-29","center":"开平","biz":"FTTR","score":7182},{"date":"2026-05-29","center":"开平","biz":"MESH","score":9867},{"date":"2026-05-29","center":"恩平","biz":"FTTR","score":798},{"date":"2026-05-29","center":"恩平","biz":"MESH","score":4684},{"date":"2026-05-29","center":"恩平","biz":"枪机","score":199},{"date":"2026-05-29","center":"新会","biz":"FTTR","score":9975},{"date":"2026-05-29","center":"新会","biz":"MESH","score":9568},{"date":"2026-05-29","center":"江海","biz":"FTTR","score":5187},{"date":"2026-05-29","center":"江海","biz":"MESH","score":7369},{"date":"2026-05-29","center":"蓬江","biz":"FTTR","score":10772},{"date":"2026-05-29","center":"蓬江","biz":"MESH","score":11557},{"date":"2026-05-29","center":"鹤山","biz":"FTTR","score":7182},{"date":"2026-05-29","center":"鹤山","biz":"MESH","score":8468},{"date":"2026-05-30","center":"台山","biz":"FTTR","score":4788},{"date":"2026-05-30","center":"台山","biz":"MESH","score":2990},{"date":"2026-05-30","center":"开平","biz":"FTTR","score":5985},{"date":"2026-05-30","center":"开平","biz":"MESH","score":5681},{"date":"2026-05-30","center":"恩平","biz":"FTTR","score":5985},{"date":"2026-05-30","center":"恩平","biz":"MESH","score":4983},{"date":"2026-05-30","center":"恩平","biz":"枪机","score":398},{"date":"2026-05-30","center":"新会","biz":"FTTR","score":12369},{"date":"2026-05-30","center":"新会","biz":"MESH","score":5382},{"date":"2026-05-30","center":"江海","biz":"FTTR","score":3192},{"date":"2026-05-30","center":"江海","biz":"MESH","score":4480},{"date":"2026-05-30","center":"蓬江","biz":"FTTR","score":6384},{"date":"2026-05-30","center":"蓬江","biz":"MESH","score":6476},{"date":"2026-05-30","center":"鹤山","biz":"FTTR","score":9376},{"date":"2026-05-30","center":"鹤山","biz":"MESH","score":5278},{"date":"2026-05-31","center":"台山","biz":"FTTR","score":2793},{"date":"2026-05-31","center":"台山","biz":"MESH","score":3787},{"date":"2026-05-31","center":"台山","biz":"枪机","score":199},{"date":"2026-05-31","center":"开平","biz":"FTTR","score":7581},{"date":"2026-05-31","center":"开平","biz":"MESH","score":8671},{"date":"2026-05-31","center":"开平","biz":"枪机","score":199},{"date":"2026-05-31","center":"恩平","biz":"FTTR","score":5187},{"date":"2026-05-31","center":"恩平","biz":"MESH","score":5083},{"date":"2026-05-31","center":"新会","biz":"FTTR","score":13166},{"date":"2026-05-31","center":"新会","biz":"MESH","score":6877},{"date":"2026-05-31","center":"新会","biz":"枪机","score":398},{"date":"2026-05-31","center":"江海","biz":"FTTR","score":5386},{"date":"2026-05-31","center":"江海","biz":"MESH","score":6475},{"date":"2026-05-31","center":"蓬江","biz":"FTTR","score":6583},{"date":"2026-05-31","center":"蓬江","biz":"MESH","score":6777},{"date":"2026-05-31","center":"蓬江","biz":"枪机","score":199},{"date":"2026-05-31","center":"鹤山","biz":"FTTR","score":4788},{"date":"2026-05-31","center":"鹤山","biz":"MESH","score":8267},{"date":"2026-06-01","center":"台山","biz":"FTTR","score":8175},{"date":"2026-06-01","center":"台山","biz":"MESH","score":7271},{"date":"2026-06-01","center":"台山","biz":"枪机","score":199},{"date":"2026-06-01","center":"开平","biz":"FTTR","score":6980},{"date":"2026-06-01","center":"开平","biz":"MESH","score":5279},{"date":"2026-06-01","center":"恩平","biz":"FTTR","score":6982},{"date":"2026-06-01","center":"恩平","biz":"MESH","score":2490},{"date":"2026-06-01","center":"恩平","biz":"枪机","score":398},{"date":"2026-06-01","center":"新会","biz":"FTTR","score":7478},{"date":"2026-06-01","center":"新会","biz":"MESH","score":4285},{"date":"2026-06-01","center":"新会","biz":"枪机","score":398},{"date":"2026-06-01","center":"江海","biz":"FTTR","score":1895},{"date":"2026-06-01","center":"江海","biz":"MESH","score":3588},{"date":"2026-06-01","center":"蓬江","biz":"FTTR","score":7778},{"date":"2026-06-01","center":"蓬江","biz":"MESH","score":5281},{"date":"2026-06-01","center":"鹤山","biz":"FTTR","score":5285},{"date":"2026-06-01","center":"鹤山","biz":"MESH","score":3986},{"date":"2026-06-02","center":"台山","biz":"FTTR","score":5880},{"date":"2026-06-02","center":"台山","biz":"MESH","score":5474},{"date":"2026-06-02","center":"台山","biz":"枪机","score":199},{"date":"2026-06-02","center":"开平","biz":"FTTR","score":6879},{"date":"2026-06-02","center":"开平","biz":"MESH","score":3385},{"date":"2026-06-02","center":"恩平","biz":"FTTR","score":4288},{"date":"2026-06-02","center":"恩平","biz":"MESH","score":3384},{"date":"2026-06-02","center":"新会","biz":"FTTR","score":11165},{"date":"2026-06-02","center":"新会","biz":"MESH","score":3684},{"date":"2026-06-02","center":"江海","biz":"FTTR","score":2991},{"date":"2026-06-02","center":"江海","biz":"MESH","score":4284},{"date":"2026-06-02","center":"蓬江","biz":"FTTR","score":6577},{"date":"2026-06-02","center":"蓬江","biz":"MESH","score":3285},{"date":"2026-06-02","center":"鹤山","biz":"FTTR","score":5384},{"date":"2026-06-02","center":"鹤山","biz":"MESH","score":2787}]
+};
+
+const CENTERS = ["蓬江","江海","新会","台山","开平","鹤山","恩平"];
+
+// 基准日 + 核减 (localStorage)
+let baseline = JSON.parse(localStorage.getItem('bl_0527')) || {};
+let deductions = JSON.parse(localStorage.getItem('fufen_dd')) || [];
+
+function save() {
+  localStorage.setItem('bl_0527', JSON.stringify(baseline));
+  localStorage.setItem('fufen_dd', JSON.stringify(deductions));
+}
+
+// 基准日
+function renderBaseline() {
+  const body = document.getElementById('baselineBody');
+  let html = '', total = 0;
+  CENTERS.forEach(c => {
+    const v = baseline[c] || 0;
+    total += v;
+    html += `<tr><td><strong>${c}</strong></td>
+      <td><input class="input-sm" type="number" value="${v}" onchange="upBl('${c}',this.value)"></td></tr>`;
+  });
+  html += `<tr class="total"><td><strong>合计</strong></td><td class="num" id="blTotal">${total.toLocaleString()}</td></tr>`;
+  body.innerHTML = html;
+}
+function upBl(c, v) {
+  baseline[c] = parseInt(v) || 0;
+  save();
+  let t = 0; CENTERS.forEach(x => t += baseline[x]||0);
+  document.getElementById('blTotal').textContent = t.toLocaleString();
+  renderAll();
+}
+
+// 核减
+function renderDeductions() {
+  const list = document.getElementById('deductionList');
+  if (!deductions.length) { list.innerHTML = '<p style="color:#999;font-size:13px;padding:8px;">暂无核减记录</p>'; return; }
+  let html = '';
+  deductions.forEach((d,i) => {
+    html += `<li class="deduction-item">
+      <div class="info"><strong>${d.date}</strong> <span>${d.center}</span> <span class="tag">核减</span> <span style="color:#999">${d.reason||''}</span></div>
+      <div class="score ${d.score<0?'red':'green'}">${d.score>0?'+'+d.score:d.score}</div>
+      <button class="btn btn-red btn-sm" onclick="rmD(${i})">✕</button>
+    </li>`;
+  });
+  list.innerHTML = html;
+}
+function addDeduction() {
+  const d = document.getElementById('deductDate').value;
+  const c = document.getElementById('deductCenter').value;
+  const s = parseInt(document.getElementById('deductScore').value);
+  const r = document.getElementById('deductReason').value;
+  if (isNaN(s)||s===0) { alert('请输入有效分数'); return; }
+  deductions.push({date:d, center:c, score:s, reason:r});
+  save();
+  renderDeductions(); renderAll();
+  document.getElementById('deductScore').value=''; document.getElementById('deductReason').value='';
+}
+function rmD(i) { deductions.splice(i,1); save(); renderDeductions(); renderAll(); }
+
+function getDed(date, center) {
+  let t = 0;
+  deductions.forEach(d => { if (d.date===date && d.center===center) t += d.score; });
+  return t;
+}
+
+function getThColor(c, val) {
+  // 蓬江、新会 > -20000=红, < -20000=绿
+  // 台山、开平 > -15000=红, < -15000=绿
+  // 江海、鹤山、恩平 > -10000=红, < -10000=绿
+  var th;
+  if (c==='蓬江'||c==='新会') th = -20000;
+  else if (c==='台山'||c==='开平') th = -15000;
+  else th = -10000;
+  return val > th ? 'red' : 'green';
+}
+
+// 汇总
+function renderPivot() {
+  const pivot = RAW.pivot;
+  const sorted = pivot.sort((a,b)=>a.date.localeCompare(b.date));
+  let h = '<tr><th>日期</th>';
+  CENTERS.forEach(c => h += '<th>'+c+'</th>');
+  h += '<th>合计</th></tr>';
+  document.getElementById('pivotHeader').innerHTML = h;
+
+  let html = '', gSys=0, gDed=0;
+  // 基准日行
+  let blTotal = 0;
+  CENTERS.forEach(c => blTotal += baseline[c]||0);
+  html += '<tr style="background:#fff8e1"><td><strong>05/27 (基准)</strong></td>';
+  CENTERS.forEach(c => html += '<td class="num">'+((baseline[c]||0).toLocaleString())+'</td>');
+  html += '<td class="num"><strong>'+blTotal.toLocaleString()+'</strong></td></tr>';
+  gSys += blTotal;
+
+  sorted.forEach(p => {
+    // 福分行
+    html += '<tr><td><strong>'+p.date+'</strong></td>';
+    let rTot=0;
+    CENTERS.forEach(c => {
+      const v = p[c]||0;
+      rTot += v;
+      html += '<td class="num">'+v.toLocaleString()+'</td>';
+    });
+    gSys += rTot;
+    html += '<td class="num"><strong>'+rTot.toLocaleString()+'</strong></td></tr>';
+    // 核减行
+    let hasDed = false;
+    CENTERS.forEach(c => {
+      const d = getDed('2026-'+p.date.replace('/','-'), c);
+      if (d !== 0) hasDed = true;
+    });
+    if (hasDed) {
+      html += '<tr style="font-size:13px"><td style="color:#c62828">核减</td>';
+      let dTot = 0;
+      CENTERS.forEach(c => {
+        const d = getDed('2026-'+p.date.replace('/','-'), c);
+        dTot += d;
+        html += '<td class="num '+(d<0?'red':d>0?'green':'')+'">'+(d||'-')+'</td>';
+      });
+      gDed += dTot;
+      html += '<td class="num '+(dTot<0?'red':dTot>0?'green':'')+'"><strong>'+(dTot||'-')+'</strong></td></tr>';
+    }
+  });
+  // 累计
+  html += '<tr class="total"><td><strong>累计</strong></td>';
+  CENTERS.forEach(c => {
+    let t = baseline[c]||0;
+    sorted.forEach(p => t += (p[c]||0));
+    deductions.forEach(function(x){if(x.center===c)t+=x.score});
+    var col = getThColor(c, t);
+    html += '<td class="num '+col+'">'+t.toLocaleString()+'</td>';
+  });
+  html += '<td class="num"><strong>'+(gSys+gDed).toLocaleString()+'</strong></td></tr>';
+  document.getElementById('pivotBody').innerHTML = html;
+}
+
+function renderAll() {
+  let blTotal = 0; CENTERS.forEach(c => blTotal += baseline[c]||0);
+  let totalDed = 0; deductions.forEach(d => totalDed += d.score);
+  const sysPlusBl = RAW.grandTotal + blTotal;
+  const totalAll = sysPlusBl + totalDed;
+  document.getElementById('summaryCards').innerHTML = `
+    <div class="card"><div class="label">📅 统计天数</div><div class="value blue">${RAW.pivot.length+1}天</div></div>
+    <div class="card"><div class="label">🏢 覆盖中心</div><div class="value blue">${CENTERS.length}个</div></div>
+    <div class="card"><div class="label">📊 基准日基数</div><div class="value green">${blTotal.toLocaleString()}</div></div>
+    <div class="card"><div class="label">💰 系统福分</div><div class="value gold">${RAW.grandTotal.toLocaleString()}</div></div>
+    <div class="card"><div class="label">✏️ 核减合计</div><div class="value red">${totalDed.toLocaleString()}</div></div>
+    <div class="card"><div class="label">✅ 含基准+核减</div><div class="value blue">${totalAll.toLocaleString()}</div></div>
+  `;
+  renderPivot();
+}
+
+renderBaseline(); renderDeductions(); renderAll();
+document.getElementById('dateRange').textContent = '统计周期: 2026-05-28 ~ 2026-06-02 | 基准日: 2026-05-27';
+document.getElementById('updateTime').textContent = `数据更新: ${new Date().toLocaleString('zh-CN')} | 每日 08:00 自动更新`;
+</script>
+</body>
+</html>
