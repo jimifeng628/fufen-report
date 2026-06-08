@@ -190,15 +190,24 @@ async function checkPw() {
   }
 })();
 
-const RAW = {
-  pivot: [{"date":"05/28","台山":13260,"开平":15454,"恩平":6280,"新会":19747,"江海":7772,"蓬江":11662,"鹤山":8372,"合计":82547},{"date":"05/29","台山":18746,"开平":17049,"恩平":5681,"新会":19543,"江海":12556,"蓬江":22329,"鹤山":15650,"合计":111554},{"date":"05/30","台山":7778,"开平":11666,"恩平":11366,"新会":17751,"江海":7672,"蓬江":12860,"鹤山":14654,"合计":83747},{"date":"05/31","台山":6779,"开平":16451,"恩平":10270,"新会":20441,"江海":11861,"蓬江":13559,"鹤山":13055,"合计":92416},{"date":"06/01","台山":15645,"开平":12259,"恩平":9870,"新会":12161,"江海":5483,"蓬江":13059,"鹤山":9271,"合计":77748},{"date":"06/02","台山":11553,"开平":10264,"恩平":7672,"新会":14849,"江海":7275,"蓬江":9862,"鹤山":8171,"合计":69646}],
-  centers: ["台山","开平","恩平","新会","江海","蓬江","鹤山"],
-  centerTotals: {"新会":104492,"蓬江":83331,"开平":83143,"台山":73761,"鹤山":69173,"江海":52619,"恩平":51139},
-  grandTotal: 517658,
-  detail: [{"date":"2026-05-28","center":"台山","biz":"FTTR","score":7182},{"date":"2026-05-28","center":"台山","biz":"MESH","score":5083},{"date":"2026-05-28","center":"台山","biz":"枪机","score":995},{"date":"2026-05-28","center":"开平","biz":"FTTR","score":7381},{"date":"2026-05-28","center":"开平","biz":"MESH","score":8073},{"date":"2026-05-28","center":"恩平","biz":"FTTR","score":1596},{"date":"2026-05-28","center":"恩平","biz":"MESH","score":4485},{"date":"2026-05-28","center":"恩平","biz":"枪机","score":199},{"date":"2026-05-28","center":"新会","biz":"FTTR","score":16359},{"date":"2026-05-28","center":"新会","biz":"MESH","score":3189},{"date":"2026-05-28","center":"新会","biz":"枪机","score":199},{"date":"2026-05-28","center":"江海","biz":"FTTR","score":2992},{"date":"2026-05-28","center":"江海","biz":"MESH","score":4780},{"date":"2026-05-28","center":"蓬江","biz":"FTTR","score":5586},{"date":"2026-05-28","center":"蓬江","biz":"MESH","score":6076},{"date":"2026-05-28","center":"鹤山","biz":"FTTR","score":3192},{"date":"2026-05-28","center":"鹤山","biz":"MESH","score":4981},{"date":"2026-05-28","center":"鹤山","biz":"枪机","score":199},{"date":"2026-05-29","center":"台山","biz":"FTTR","score":10374},{"date":"2026-05-29","center":"台山","biz":"MESH","score":8372},{"date":"2026-05-29","center":"开平","biz":"FTTR","score":7182},{"date":"2026-05-29","center":"开平","biz":"MESH","score":9867},{"date":"2026-05-29","center":"恩平","biz":"FTTR","score":798},{"date":"2026-05-29","center":"恩平","biz":"MESH","score":4684},{"date":"2026-05-29","center":"恩平","biz":"枪机","score":199},{"date":"2026-05-29","center":"新会","biz":"FTTR","score":9975},{"date":"2026-05-29","center":"新会","biz":"MESH","score":9568},{"date":"2026-05-29","center":"江海","biz":"FTTR","score":5187},{"date":"2026-05-29","center":"江海","biz":"MESH","score":7369},{"date":"2026-05-29","center":"蓬江","biz":"FTTR","score":10772},{"date":"2026-05-29","center":"蓬江","biz":"MESH","score":11557},{"date":"2026-05-29","center":"鹤山","biz":"FTTR","score":7182},{"date":"2026-05-29","center":"鹤山","biz":"MESH","score":8468},{"date":"2026-05-30","center":"台山","biz":"FTTR","score":4788},{"date":"2026-05-30","center":"台山","biz":"MESH","score":2990},{"date":"2026-05-30","center":"开平","biz":"FTTR","score":5985},{"date":"2026-05-30","center":"开平","biz":"MESH","score":5681},{"date":"2026-05-30","center":"恩平","biz":"FTTR","score":5985},{"date":"2026-05-30","center":"恩平","biz":"MESH","score":4983},{"date":"2026-05-30","center":"恩平","biz":"枪机","score":398},{"date":"2026-05-30","center":"新会","biz":"FTTR","score":12369},{"date":"2026-05-30","center":"新会","biz":"MESH","score":5382},{"date":"2026-05-30","center":"江海","biz":"FTTR","score":3192},{"date":"2026-05-30","center":"江海","biz":"MESH","score":4480},{"date":"2026-05-30","center":"蓬江","biz":"FTTR","score":6384},{"date":"2026-05-30","center":"蓬江","biz":"MESH","score":6476},{"date":"2026-05-30","center":"鹤山","biz":"FTTR","score":9376},{"date":"2026-05-30","center":"鹤山","biz":"MESH","score":5278},{"date":"2026-05-31","center":"台山","biz":"FTTR","score":2793},{"date":"2026-05-31","center":"台山","biz":"MESH","score":3787},{"date":"2026-05-31","center":"台山","biz":"枪机","score":199},{"date":"2026-05-31","center":"开平","biz":"FTTR","score":7581},{"date":"2026-05-31","center":"开平","biz":"MESH","score":8671},{"date":"2026-05-31","center":"开平","biz":"枪机","score":199},{"date":"2026-05-31","center":"恩平","biz":"FTTR","score":5187},{"date":"2026-05-31","center":"恩平","biz":"MESH","score":5083},{"date":"2026-05-31","center":"新会","biz":"FTTR","score":13166},{"date":"2026-05-31","center":"新会","biz":"MESH","score":6877},{"date":"2026-05-31","center":"新会","biz":"枪机","score":398},{"date":"2026-05-31","center":"江海","biz":"FTTR","score":5386},{"date":"2026-05-31","center":"江海","biz":"MESH","score":6475},{"date":"2026-05-31","center":"蓬江","biz":"FTTR","score":6583},{"date":"2026-05-31","center":"蓬江","biz":"MESH","score":6777},{"date":"2026-05-31","center":"蓬江","biz":"枪机","score":199},{"date":"2026-05-31","center":"鹤山","biz":"FTTR","score":4788},{"date":"2026-05-31","center":"鹤山","biz":"MESH","score":8267},{"date":"2026-06-01","center":"台山","biz":"FTTR","score":8175},{"date":"2026-06-01","center":"台山","biz":"MESH","score":7271},{"date":"2026-06-01","center":"台山","biz":"枪机","score":199},{"date":"2026-06-01","center":"开平","biz":"FTTR","score":6980},{"date":"2026-06-01","center":"开平","biz":"MESH","score":5279},{"date":"2026-06-01","center":"恩平","biz":"FTTR","score":6982},{"date":"2026-06-01","center":"恩平","biz":"MESH","score":2490},{"date":"2026-06-01","center":"恩平","biz":"枪机","score":398},{"date":"2026-06-01","center":"新会","biz":"FTTR","score":7478},{"date":"2026-06-01","center":"新会","biz":"MESH","score":4285},{"date":"2026-06-01","center":"新会","biz":"枪机","score":398},{"date":"2026-06-01","center":"江海","biz":"FTTR","score":1895},{"date":"2026-06-01","center":"江海","biz":"MESH","score":3588},{"date":"2026-06-01","center":"蓬江","biz":"FTTR","score":7778},{"date":"2026-06-01","center":"蓬江","biz":"MESH","score":5281},{"date":"2026-06-01","center":"鹤山","biz":"FTTR","score":5285},{"date":"2026-06-01","center":"鹤山","biz":"MESH","score":3986},{"date":"2026-06-02","center":"台山","biz":"FTTR","score":5880},{"date":"2026-06-02","center":"台山","biz":"MESH","score":5474},{"date":"2026-06-02","center":"台山","biz":"枪机","score":199},{"date":"2026-06-02","center":"开平","biz":"FTTR","score":6879},{"date":"2026-06-02","center":"开平","biz":"MESH","score":3385},{"date":"2026-06-02","center":"恩平","biz":"FTTR","score":4288},{"date":"2026-06-02","center":"恩平","biz":"MESH","score":3384},{"date":"2026-06-02","center":"新会","biz":"FTTR","score":11165},{"date":"2026-06-02","center":"新会","biz":"MESH","score":3684},{"date":"2026-06-02","center":"江海","biz":"FTTR","score":2991},{"date":"2026-06-02","center":"江海","biz":"MESH","score":4284},{"date":"2026-06-02","center":"蓬江","biz":"FTTR","score":6577},{"date":"2026-06-02","center":"蓬江","biz":"MESH","score":3285},{"date":"2026-06-02","center":"鹤山","biz":"FTTR","score":5384},{"date":"2026-06-02","center":"鹤山","biz":"MESH","score":2787}]
-};
+let RAW = null; // 将从 report_data.json 动态加载
+const DATA_URL = 'https://raw.githubusercontent.com/jimifeng628/fufen-report/main/report_data.json';
 
 const CENTERS = ["蓬江","江海","新会","台山","开平","鹤山","恩平"];
+
+// 业务数据（从 report_data.json 动态加载）
+async function loadData() {
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('fetch report_data.json failed: ' + resp.status);
+    RAW = await resp.json();
+    console.log('[data] loaded from GitHub Pages');
+  } catch(e) {
+    console.error('[data] load failed:', e.message);
+    // 可以在这里添加降级数据或提示用户
+    alert('业务数据加载失败，请刷新页面重试。如问题持续，请联系管理员。');
+  }
+}
 
 // 基准日 + 核减 (GitHub 持久化 + localStorage 缓存)
 let baseline = {};
@@ -415,10 +424,12 @@ function renderAll() {
 }
 
 (async function init() {
+  await loadData();
+  if (!RAW) return; // 加载失败时不继续渲染
   await loadManual();
   renderBaseline(); renderDeductions(); renderAll();
-  document.getElementById('dateRange').textContent = '统计周期: 2026-05-28 ~ 2026-06-02 | 基准日: 2026-05-27';
-  document.getElementById('updateTime').textContent = `数据更新: ${new Date().toLocaleString('zh-CN')} | 每日 08:00 自动更新`;
+  document.getElementById('dateRange').textContent = '统计周期: '+RAW.dateRange+' | 基准日: 2026-05-27';
+  document.getElementById('updateTime').textContent = '数据更新: '+(RAW.dateRange||'')+' | 每日 08:00 自动更新';
 })();
 </script>
 </body>
