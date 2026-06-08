@@ -425,10 +425,11 @@ function renderAll() {
 
 (async function init() {
   await loadData();
+  if (!RAW) return; // 加载失败时不继续渲染
   await loadManual();
   renderBaseline(); renderDeductions(); renderAll();
-  document.getElementById('dateRange').textContent = '统计周期: 2026-05-28 ~ 2026-06-02 | 基准日: 2026-05-27';
-  document.getElementById('updateTime').textContent = `数据更新: ${new Date().toLocaleString('zh-CN')} | 每日 08:00 自动更新`;
+  document.getElementById('dateRange').textContent = '统计周期: '+RAW.dateRange+' | 基准日: 2026-05-27';
+  document.getElementById('updateTime').textContent = '数据更新: '+(RAW.dateRange||'')+' | 每日 08:00 自动更新';
 })();
 </script>
 </body>
