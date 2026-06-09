@@ -65,6 +65,39 @@
       "鹤山": 8171,
       "恩平": 7672,
       "合计": 69646
+    },
+    {
+      "date": "06/03",
+      "蓬江": 10355,
+      "江海": 4483,
+      "新会": 7671,
+      "台山": 8068,
+      "开平": 7669,
+      "鹤山": 5081,
+      "恩平": 6175,
+      "合计": 49502
+    },
+    {
+      "date": "06/04",
+      "蓬江": 21598,
+      "江海": 2888,
+      "新会": 8268,
+      "台山": 9762,
+      "开平": 7171,
+      "鹤山": 5280,
+      "恩平": 5379,
+      "合计": 60346
+    },
+    {
+      "date": "06/05",
+      "蓬江": 19012,
+      "江海": 2888,
+      "新会": 11754,
+      "台山": 8762,
+      "开平": 9660,
+      "鹤山": 4781,
+      "恩平": 7268,
+      "合计": 64125
     }
   ],
   "centers": [
@@ -77,15 +110,15 @@
     "恩平"
   ],
   "centerTotals": {
-    "新会": 104492,
-    "蓬江": 83331,
-    "开平": 83143,
-    "台山": 73761,
-    "鹤山": 69173,
-    "江海": 52619,
-    "恩平": 51139
+    "蓬江": 134296,
+    "新会": 132185,
+    "开平": 107643,
+    "台山": 100353,
+    "鹤山": 84315,
+    "恩平": 69961,
+    "江海": 62878
   },
-  "grandTotal": 517658,
+  "grandTotal": 691631,
   "detail": [
     {
       "date": "2026-05-28",
@@ -8482,6 +8515,1446 @@
       "score": 299
     },
     {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 99
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 99
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 99
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 499
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 399
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "FTTR",
+      "score": 299
+    },
+    {
       "date": "2026-06-01",
       "center": "江海",
       "biz": "MESH",
@@ -9900,6 +11373,2874 @@
     {
       "date": "2026-06-02",
       "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-04",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "新会",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "台山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "鹤山",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "江海",
+      "biz": "MESH",
+      "score": 299
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "开平",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
+      "biz": "MESH",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "蓬江",
       "biz": "MESH",
       "score": 199
     },
@@ -9936,10 +14277,64 @@
     {
       "date": "2026-06-02",
       "center": "台山",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "开平",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-03",
+      "center": "台山",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "开平",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "新会",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-04",
+      "center": "恩平",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
+      "biz": "枪机",
+      "score": 199
+    },
+    {
+      "date": "2026-06-05",
+      "center": "恩平",
       "biz": "枪机",
       "score": 199
     }
   ],
-  "dateRange": "2026-05-28 ~ 2026-06-02",
-  "dataRows": 1642
+  "dateRange": "2026-05-28 ~ 2026-06-05",
+  "dataRows": 2369
 }
